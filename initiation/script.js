@@ -27,3 +27,9 @@ function add(couleur){
     console.log("Vous avez cliqué sur le cercle " + couleur + ", votre total est de : " + compteur + " point(s) !");
     titre.innerText = compteur;
 }
+
+setTimeout(function(){
+    //suppression des cercles
+    btnRed.remove();
+    btnBlue.remove();
+}, 10000);
