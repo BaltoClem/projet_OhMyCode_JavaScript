@@ -32,4 +32,5 @@ setTimeout(function(){
     //suppression des cercles
     btnRed.remove();
     btnBlue.remove();
+    titre.innerText = "Fin de la partie"
 }, 10000);
