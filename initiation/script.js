@@ -1,4 +1,5 @@
-let titre = document.getElementById('titre').style.color = "green";
+let titre = document.getElementById('titre');
+titre.style.color = "green";
 
 // Je sélectionne et je stocke
 
@@ -25,5 +26,5 @@ btnBlue.addEventListener('click', function(){
 function add(couleur){
     compteur = compteur + 1;
     console.log("Vous avez cliqué sur le cercle " + couleur + ", votre total est de : " + compteur + " point(s) !");
-    titre.innerHTML = compteur;
+    titre.innerText = compteur;
 }
