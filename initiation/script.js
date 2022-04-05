@@ -1,4 +1,4 @@
-let titre = document.getElementById('titre');
+let titre = document.getElementById('score');
 
 // Je sélectionne et je stocke
 
@@ -15,22 +15,25 @@ btnRed.addEventListener('click', function(){
     // Ici l'action
     // Incrémenter le compteur de 1
     add("rouge");
+    chrono();
 })
 
 // Je soumets le cercle BLEU à une action
 btnBlue.addEventListener('click', function(){
     add("bleu");
+    chrono();
 })
 
 function add(couleur){
     compteur = compteur + 1;
-    console.log("Vous avez cliqué sur le cercle " + couleur + ", votre total est de : " + compteur + " point(s) !");
+    //console.log("Vous avez cliqué sur le cercle " + couleur + ", votre total est de : " + compteur + " point(s) !");
     titre.innerText = compteur;
 }
 
+function chrono(){
 setTimeout(function(){
     //suppression des cercles
     btnRed.remove();
     btnBlue.remove();
-    titre.innerText = "Fin de la partie"
-}, 10000);
+    titre.innerText = "Fin de la partie, vous avez marqué "+compteur+" point(s) !"
+}, 10000);};
