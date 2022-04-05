@@ -1,1 +1,16 @@
-console.log("Connecté !")
+// Je sélectionne et je stocke
+
+//bouton .btn-success;
+const btnSuccess = document.querySelector('.btn-success');
+//console.log(btnSuccess);
+
+//DIV cookies;
+const cookies = document.querySelector('.cookies');
+//console.log(cookies);
+
+// Actions à réaliser
+
+btnSuccess.addEventListener('click', function(){
+    console.log('bouton cliqué !');
+    cookies.style.opacity = "0";
+})
