@@ -1,5 +1,4 @@
 let titre = document.getElementById('titre');
-titre.style.color = "green";
 
 // Je sélectionne et je stocke
 
