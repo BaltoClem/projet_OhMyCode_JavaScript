@@ -23,3 +23,16 @@ body{
     align-items: center;
     background-color: #1E2337;
 }
+
+.bloc-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    padding: 1rem;
+    background-color: #b5b5b5;
+    border: none;
+    color: #1E2337
+}
