@@ -16,5 +16,13 @@ icone.addEventListener('click', function(){
 
 btnButton.addEventListener('click', function(){
     console.log('Bouton cliqué');
-    btnButton.innerText = "Abonné !";
+    //On vérifie le texte du bouton
+    if(btnButton.innerText === "Abonné !"){
+        // Action à réaliser si condition est "true"
+        btnButton.innerText = "Abonnez-vous";
+    }
+    else{
+        console.log('else');
+        btnButton.innerText = "Abonné !"
+    }
 });
