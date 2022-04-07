@@ -24,6 +24,10 @@ body{
     background-color: #2C3C54;
 }
 
+.container-change{
+    background-color: #CBE6FF;
+}
+
 .switch{
     width: 90px;
     height: 30px;
@@ -32,6 +36,7 @@ body{
     position: relative; /* Permet de positionner l'icône en absolute */
     border : 1px solid #1E2939;
     padding: 1rem;
+    margin: auto;
 }
 
 .switch i{
@@ -39,6 +44,11 @@ body{
     color: #FFD363;
     top: 6px;
     right: 23px;
+}
+
+.switch-change{
+    background-color: #61b3ff;
+    border: 1px solid #61b3ff;
 }
 
 .btn{
@@ -49,4 +59,13 @@ body{
     position: absolute; /* Par rapport à la DIV switch */
     top: -1px; /* Evite un décalage de 1px*/
     left: -1px; /* Evite un décalage de 1px*/
+}
+
+.btn-change{
+    right: -1px;
+    left: auto; /*nécessaire pour ne pas prendre compte la valeur left*/
+}
+
+.icone-change{
+    left: 20px;
 }
