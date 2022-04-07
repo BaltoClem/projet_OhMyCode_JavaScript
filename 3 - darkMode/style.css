@@ -34,6 +34,13 @@ body{
     padding: 1rem;
 }
 
+.switch i{
+    position: absolute; /* Par rapport à la DIV switch */
+    color: #FFD363;
+    top: 6px;
+    right: 23px;
+}
+
 .btn{
     width: 30px;
     height: 30px;
