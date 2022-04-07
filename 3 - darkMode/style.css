@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body{
+    font-size: 1.4rem; /* 14px */
+    font-family: arial;
+    color: white;
+}
+
+.container{
+    height: 100vh; /* vh = viewport height */ /* 100vh = on remplit entièrement la zone d'affichage*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2C3C54;
+}
+
+.switch{
+    width: 90px;
+    height: 30px;
+    background-color: #1E2939;
+    border-radius: 15px;
+    position: relative; /* Permet de positionner l'icône en absolute */
+    border : 1px solid #1E2939;
+    padding: 1rem;
+}
+
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute; /* Par rapport à la DIV switch */
+    top: -1px; /* Evite un décalage de 1px*/
+    left: -1px; /* Evite un décalage de 1px*/
+}
