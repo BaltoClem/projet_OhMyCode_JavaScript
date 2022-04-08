@@ -26,6 +26,20 @@ body{
     background-color: #1E2337;
 }
 
+.change-modal{
+    top: 0;
+}
+
+.modal{
+    background-color: #F92995;
+    height: 100vh;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
                                                 /**************************************
                                                 *******    STYLE MENU DESKTOP  ********
                                                 **************************************/
